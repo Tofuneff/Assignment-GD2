@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+    </style>
+</head>
+<body>
+  <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="../Assignment-GD2/style.css">
+</head>
+<body>
+  <section class="myheader">
+    <div class="container py-3">
+        <div class="row">
+                <div class="nav justify-content-between">
+                    <div class="col-md-2">
+                        <div class="dropdown">
+                            <div class="btn-group dropend">
+                            <button type="button" class="btn dropdown-toggle text-dark " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-language fs-5" style="color: #ff914d;"></i>  Chọn Ngôn Ngữ
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a lang="vi" class="dropdown-item" href="#"><i class="fa-solid fa-v fs-6" style="color: #ff914d;"></i><i class="fa-solid fa-i fs-6" style="color: #ff914d;"></i> Tiếng Việt</a></li>
+                                <li><a lang="en" class="dropdown-item" href="#"><i class="fa-solid fa-e fs-6" style="color: #ff914d;"></i><i class="fa-solid fa-n fs-6" style="color: #ff914d;"></i> English</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="dropdown">
+                        <div class="btn-group dropend">
+                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-circle-user fs-5" style="color: #ff914d;"></i> Tài Khoản
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" target="_blank" href="#">Đăng Nhập</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="#">Đăng Ký</a></li>
+                            </ul>
+                          </div> 
+                        </div>
+                    </div>
+            </div>
+            </div>
+        <div class="row py-2">
+            <div class="col-md-2 mx-5">
+                <a href="../Assignment-GD2/Index.html"><img src="../../ASM/Assignment-GD2/image/logo2.png" width="120" alt="logo"></a>
+            </div>
+            <div class="col-md-7">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Bạn đang tìm sản phẩm nào?" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <a href="#"><i class="fa-solid fa-basket-shopping fs-3 py-4 mx-5" style="color: #ff914d;"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="mainNav">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-md-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse fs-5 justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Assignment-GD2/Index.html">Trang Chủ</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sản Phẩm
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item " href="#"><i class="fa-solid fa-dog" style="color: #ff914d;"></i> Sản Phẩm dành cho Chó</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cat" style="color: #ff914d;"></i> Sản Phẩm dành cho Mèo</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-holding-medical" style="color: #ff914d;"></i> Y Tế dành cho Thú Cưng</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Tin Tức
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" target="_blank" href="../Assignment-GD2/Assignment - Tin Tức.html">Tin Tức Về Thú Cưng</a></li>
+                          <li><a class="dropdown-item" href="#">Khuyến Mãi</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Tuyển Dụng</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Giới Thiệu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Về Chúng Tôi</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" target="_blank" href="../Assignment-GD2/Assignment - Liên hệ.html">Liên Hệ</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../../ASM/Assignment-GD2/image/slider_5.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../ASM/Assignment-GD2/image/slider_3.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../ASM/Assignment-GD2/image/slider_4.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+</section>
+  <section class="main-news">
+    <div class="container">
+        <div class="row">
+        <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-2">
+            <div class="col-md-6">
+                <div class="image">
+                    <a href="#"><img src="../../ASM/Assignment-GD2/image/ra-mắt-phim-7.jpg" width="300" alt="ảnh"></a>
+                </div>
+                <div class="content">
+                    <h6 class="py-2">Trước ngày quay, lão Hạc vẫn chưa biết mặt cậu Vàng
+                      Tại buổi ra mắt phim “Cậu Vàng” có đến 5 “diễn viên bốn chân” xuất [...]</h6>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image">
+                    <a href="#"><img src="../../ASM/Assignment-GD2/image/hình-ảnh-được-đăng-tải-trên-mạng-xã-hội-ngày-24.12.png" width="300" alt="ảnh"></a>
+                </div>
+                <div class="content">
+                    <h6 class="py-2">[Tổng hợp] Những Chú Chó Nổi Tiếng Việt Nam và trên thế giới
+                      Hình ảnh của những chú chó nổi tiếng trên mạng xã hội Việt Nam và [...]</h6>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image">
+                    <a href="#"><img src="../../ASM/Assignment-GD2/image/e34e346655e7acb9f5f6.jpg" width="300" alt="ảnh"></a>
+                </div>
+                <div class="content">
+                    <h6 class="py-2">Điểm đặc biệt của chú chó được vào vai cậu Vàng là gì
+                      Việc một chú chó Nhật thuần chủng được chọn làm nhân vật chính trong bộ [...]</h6>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image">
+                    <a href="#"><img src="../../ASM/Assignment-GD2/image/7-CHÚ-CHÓ-1.jpg" width="300" alt="ảnh"></a>
+                </div>
+                <div class="content">
+                    <h6 class="py-2">Hé lộ dàn nghệ sĩ trong phim và sự xuất hiện của 7 cậu Vàng
+                      Cuộc họp báo công bố dàn diễn viên người thật trong bộ phim “Cậu Vàng” [...]</h6>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+  <hr>
+  <section class="myinformation bg-light">
+          <div class="row">
+              <div class="address">
+                 <p class="fs-5">Địa Chỉ:</p> <hr>
+                 <ul>
+                      <li class="py-1">Hộ kinh doanh OniChiChi Meowgo.</li>
+                      <li class="py-1">MST: 42039935A.</li>
+                      <li class="py-1">Ngày cấp: 07/04/2022.</li>
+                      <li class="py-1">Nơi cấp: UBND Thành phố Đà Lạt.</li>
+                      <li class="py-1">Địa chỉ:<strong> 29/1 Lê Hồng Phong, phường 4, Tp Đà Lạt, tỉnh Lâm Đồng</strong>.</li>
+                      <li class="py-1"><strong>Pet Farm Đà Lạt:</strong> Km 2, đường Quảng Thắng, xã Xuân Thọ, Tp. Đà Lạt, tỉnh Lâm Đồng.</li>
+                 </ul>
+                 <ul>
+                  <li class="py-1 list-inline"><a class="text-decoration-none text-dark" href="#">Quy chế hoạt động</a></li>
+                  <li class="py-1 list-inline"><a class="text-decoration-none text-dark" href="#">Chính sách bảo mật</a></li>
+                  <li class="py-1 list-inline"><a class="text-decoration-none text-dark" href="#">Quy trình đặt hàng và thanh toán</a></li>
+                  <li class="py-1 list-inline"><a class="text-decoration-none text-dark" href="#">Chính sách giao hàng</a></li>
+                  <li class="py-1 list-inline"><a class="text-decoration-none text-dark" href="#">Chính sách đổi trả</a></li>
+                  </ul>
+              </div>
+              <div class="infor-content">
+                  <p class="fs-5">Thông Báo</p> <hr>
+                  <p class="txt">Tuân thủ Nghị định số 185/2013/NĐ-CP của Chính phủ và luật quảng cáo số 16/2012/ QH13 về kinh doanh bán hàng qua mạng, 
+                  OniChiChi Meowgo không mua bán sản phẩm online trực tuyến qua mạng internet. Website chỉ là kênh thông tin chia sẻ kinh nghiệm nuôi,
+                  chăm sóc chó mèo, thú cưng và giới thiệu các đồ dùng, dịch vụ kèm theo.</p>
+              <div class="network-infor py-3">
+                  <p class="fs-5">Mạng xã hội OniChiChi Meowgo & PetShop:</p>
+                  <div class="net">
+                      <a href="" target="_blank"><i class="fa-brands fa-facebook fs-2"></i></a>
+                      <a href="" target="_blank"><i class="fa-brands fa-instagram fs-2 text-dark"></i></a>
+                      <a href="" target="_blank"><i class="fa-brands fa-tiktok fs-2 text-dark"></i></a>
+                      <a href="" target="_blank"><i class="fa-brands fa-twitter fs-2"></i></a>
+                      <a href="" target="_blank"><i class="fa-brands fa-youtube fs-2" style="color: #da2537;"></i></a>
+                      <a href="" target="_blank"><i class="fa-brands fa-pinterest fs-2" style="color: #c11021;"></i></a>
+                  </div>
+                  <div class="item py-4">
+                      <a href="" target="_blank"><i class="fa-brands fa-cc-mastercard fs-1" style="color: #2d3139;"></i></a>
+                      <a href="" target="_blank"><i class="fa-brands fa-cc-paypal fs-1" style="color: #272e3a;"></i></a>
+                      <a href="" target="_blank"><i class="fa-brands fa-cc-visa fs-1" style="color: #242933;"></i></a>
+                  </div>
+                  <div class="img-certificate">
+                      <img src="../../ASM/Assignment-GD2/image/dmca_premi_badge_7.png" width="80" alt="ảnh chứng nhận">
+                      <img src="../../ASM/Assignment-GD2/image/icon-bocongthuong.png" width="150 alt="ảnh chứng nhận bộ công thương">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="myfooter bg-secondary py-3">
+      <div class="row text-center">
+          <div class="title-end">
+              <p>Các giống chó: chó phốc sóc, chó poodle, chó corgi,..</p>
+              <h6 class="text-light">Bản quyền 2023 © <strong>Dogily PetShop</strong></h6>
+          </div>
+      </div>
+  </section>
+</body>
+</html>

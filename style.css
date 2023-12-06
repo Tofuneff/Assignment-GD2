@@ -1,0 +1,118 @@
+* {
+    font-family: serif, arial, helvetica;
+}
+
+section .container .input-group span:hover {
+    background: #ff914d;
+}
+
+section .container .input-group span {
+    margin: 25px 0;
+}
+
+section .container .input-group input {
+    height: 50px;
+    margin: 25px auto;
+}
+
+section .mainNav .nav-item a {
+    margin: 0 50px 0 0;
+}
+
+section .mainNav .nav-item a:hover {
+    color: #ff914d;
+}
+
+section .container .nav .dropdown-menu a:hover {
+    color: #ff914d;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.video-content .title-video h6 {
+    color: rgb(10, 74, 169);
+}
+
+.video-content .video iframe {
+    border-radius: 10px;
+}
+
+.some-content .more-content a {
+    color: black;
+}
+
+.some-content .more-content a:hover {
+    color: #ff914d;
+}
+
+h1 {
+    color: #ff914d;
+}
+
+.myinformation .address hr {
+    height: 2px;
+    color: rgb(247, 6, 6);
+}
+
+.myinformation .address {
+    padding: 10px 30px;
+    margin: 10px 30px;
+    flex-basis: 63%;
+}
+
+.myinformation .infor-content {
+    flex-basis: 30%;
+    margin: 20px;
+}
+
+.myinformation .infor-content hr {
+    height: 2px;
+    color: rgb(247, 6, 6);
+}
+
+.myinformation .infor-content .txt {
+    text-align: justify;
+}
+
+.myinformation .infor-content .network-infor .net a {
+    padding: 10px;
+}
+
+.myinformation .infor-content .network-infor .item a {
+    padding: 5px;
+}
+
+.myinformation .infor-content .network-infor .img-certificate img {
+    padding: 10px;
+    width: 150px;
+}
+
+.input-group .input-content {
+    flex-basis: 25%;
+}
+
+.input-group .address-lh {
+    flex-basis: 43%
+}
+
+.input-group .address-lhx {
+    flex-basis: 30%
+}
+
+img {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin: 0; }
+    .dropdown .btn-group .dropdown-menu{ display: none;}
+    .dropdown .btn-group:hover .dropdown-menu{ display: block; }
+    .dropdown .btn-group .dropdown-menu{ left: 100%;}
+}	

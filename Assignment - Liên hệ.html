@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ</title>
+</head>
+<body>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../Assignment-GD2/style.css">
+</head>
+<body>
+    <section class="myheader">
+        <div class="container py-3">
+            <div class="row">
+                    <div class="nav justify-content-between">
+                        <div class="col-md-2">
+                            <div class="dropdown">
+                                <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle text-dark " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-language fs-5" style="color: #ff914d;"></i>  Chọn Ngôn Ngữ
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a lang="vi" class="dropdown-item" href="#"><i class="fa-solid fa-v fs-6" style="color: #ff914d;"></i><i class="fa-solid fa-i fs-6" style="color: #ff914d;"></i> Tiếng Việt</a></li>
+                                    <li><a lang="en" class="dropdown-item" href="#"><i class="fa-solid fa-e fs-6" style="color: #ff914d;"></i><i class="fa-solid fa-n fs-6" style="color: #ff914d;"></i> English</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="dropdown">
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-circle-user fs-5" style="color: #ff914d;"></i> Tài Khoản
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" target="_blank" href="#">Đăng Nhập</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="#">Đăng Ký</a></li>
+                                </ul>
+                              </div> 
+                            </div>
+                        </div>
+                </div>
+                </div>
+            <div class="row py-2">
+                <div class="col-md-2 mx-5">
+                    <a href=""><img src="../../ASM/Assignment-GD2/image/logo2.png" width="120" alt="logo"></a>
+                </div>
+                <div class="col-md-7">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Bạn đang tìm sản phẩm nào?" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <a href="#"><i class="fa-solid fa-basket-shopping fs-3 py-4 mx-5" style="color: #ff914d;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="mainNav">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-md-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse fs-5 justify-content-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Assignment-GD2/Index.html">Trang Chủ</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sản Phẩm
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item " href="#"><i class="fa-solid fa-dog" style="color: #ff914d;"></i> Sản Phẩm dành cho Chó</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cat" style="color: #ff914d;"></i> Sản Phẩm dành cho Mèo</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-holding-medical" style="color: #ff914d;"></i> Y Tế dành cho Thú Cưng</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Tin Tức
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" target="_blank" href="../Assignment-GD2/Assignment - Tin Tức.html">Tin Tức Về Thú Cưng</a></li>
+                              <li><a class="dropdown-item" href="#">Khuyến Mãi</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Tuyển Dụng</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Giới Thiệu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Về Chúng Tôi</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" target="_blank" href="../Assignment - Liên hệ.html">Liên Hệ</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../../ASM/Assignment-GD2/image/slider_5.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../ASM/Assignment-GD2/image/slider_3.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../../ASM/Assignment-GD2/image/slider_4.webp" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+        <section class="input-group">
+            <div class="container">
+                <div class="row">
+                    <div class="input-content">
+                    <div class="title-input py-3">
+                        <h6>Họ và tên (*)</h6>
+                    </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon3">
+                        </div>
+                    <div class="title-input py-3">
+                        <h6>Email (*)</h6>
+                    </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon3">
+                        </div>
+                    <div class="title-input py-3">
+                        <h6>Số điện thoại (*)</h6>
+                    </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon3">
+                        </div>
+                    <div class="title-input py-3">
+                        <h6>Lời nhắn (*)</h6>
+                    </div>
+                        <div class="input-group">
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                </div>
+                <div class="address-lh px-5 my-3 fs-5">
+                    <p class="fs-4 text-center">PETSHOP</p>
+                    <ul>
+                        <li class="py-1 list-inline">Facebook: <a class="text-decoration-none text-dark" href="#">https://www.facebook.com/DogilyPetshop</a></li>
+                        <li class="py-1 list-inline">Youtube: <a class="text-decoration-none text-dark" href="#">https://www.youtube.com/c/DogilyPetshop/</a></li>
+                        <li class="py-1 list-inline">Instagram: <a class="text-decoration-none text-dark" href="#">https://www.instagram.com/dogilypetshop/</a></li>
+                        </ul>
+                    <ul>
+                         <li class="py-1">606/121 đường 3 tháng 2, phường 14, quận 10, thành phố Hồ Chí Minh. (Hẻm Xe Hơi lớn đỗ cửa).</li>
+                         <li class="py-1">171 Quang Trung, Phường 10, quận Gò Vấp, thành phố Hồ Chí Minh.</li>
+                         <li class="py-1">Số 95, đường Nghi Tàm, phường Yên Phụ, quận Tây Hồ, Tp Hà Nội.</li>
+                         <li class="py-1">Tiệm cà phê thú cưng MeowGo Coffee Đà Lạt: 70/1 Pasteur, phường 4, thành phố Đà Lạt, tỉnh Lâm Đồng.</li>
+                         <li class="py-1">Dogily Pet Farm Đà Lạt: Km 2, đường Quảng Thắng, xã Xuân Thọ, Tp. Đà Lạt, tỉnh Lâm Đồng.</li>
+                         <li class="py-1 list-inline"><i class="fa-solid fa-phone" style="color: #d31717;"></i> Điện thoại: <a class="text-decoration-none text-dark" href="#">0965 086 079</a></li>
+                    </ul>
+                 </div>
+                 <div class="address-lhx px-5 my-3 fs-6">
+                    <p class="fs-5 text-center">Địa Chỉ</p>
+                    <ul>
+                        <li class="py-1 list-inline"><strong>606/121 đường ba tháng hai: </strong> <a class="text-decoration-none text-dark" href="#"> 606/121 đường 3 tháng 2, phường 14, quận 10, thành phố Hồ Chí Minh.</a><strong> (Hẻm Xe Hơi lớn đỗ cửa).</strong></li>
+                        <li class="py-1 list-inline"><strong>Dogily Petshop Quang Trung: </strong> <a class="text-decoration-none text-dark" href="#">  171 Quang Trung, Phường 10, quận Gò Vấp, thành phố Hồ Chí Minh.</a></li>
+                        <li class="py-1 list-inline"><strong>Dogily Petshop Cộng Hòa: </strong> <a class="text-decoration-none text-dark" href="#">  391 đường Cộng Hòa, phường 13, quận Tân Bình, Tphcm.</a></li>
+                        <li class="py-1 list-inline"><strong>Dogily Petshop Thảo Điền: </strong> <a class="text-decoration-none text-dark" href="#"> 5/17 đường 64, phường Thảo Điền, quận 2, thành phố Thủ Đức, Tphcm.</a></li>
+                        <li class="py-1 list-inline"><strong>Dogily Petshop Tây Hồ: </strong> <a class="text-decoration-none text-dark" href="#"> 81 đường Nghi Tàm, phường Yên Phụ, quận Tây Hồ, Hà Nội.</a></li>
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+    <section class="myinformation bg-light">
+            <div class="row">
+                <div class="address">
+                   <p class="fs-5">Địa Chỉ:</p> <hr>
+                   <ul>
+                        <li class="py-1">Hộ kinh doanh OniChiChi Meowgo.</li>
+                        <li class="py-1">MST: 42039935A.</li>
+                        <li class="py-1">Ngày cấp: 07/04/2022.</li>
+                        <li class="py-1">Nơi cấp: UBND Thành phố Đà Lạt.</li>
+                        <li class="py-1">Địa chỉ:<strong> 29/1 Lê Hồng Phong, phường 4, Tp Đà Lạt, tỉnh Lâm Đồng</strong>.</li>
+                        <li class="py-1"><strong>Pet Farm Đà Lạt:</strong> Km 2, đường Quảng Thắng, xã Xuân Thọ, Tp. Đà Lạt, tỉnh Lâm Đồng.</li>
+                   </ul>
+                   <ul>
+                    <li class="py-1 list-inline"><a class="text-decoration-none text-dark" href="#">Quy chế hoạt động</a></li>
+                    <li class="py-1 list-inline"><a class="text-decoration-none text-dark" href="#">Chính sách bảo mật</a></li>
+                    <li class="py-1 list-inline"><a class="text-decoration-none text-dark" href="#">Quy trình đặt hàng và thanh toán</a></li>
+                    <li class="py-1 list-inline"><a class="text-decoration-none text-dark" href="#">Chính sách giao hàng</a></li>
+                    <li class="py-1 list-inline"><a class="text-decoration-none text-dark" href="#">Chính sách đổi trả</a></li>
+                    </ul>
+                </div>
+                <div class="infor-content">
+                    <p class="fs-5">Thông Báo</p> <hr>
+                    <p class="txt">Tuân thủ Nghị định số 185/2013/NĐ-CP của Chính phủ và luật quảng cáo số 16/2012/ QH13 về kinh doanh bán hàng qua mạng, 
+                    OniChiChi Meowgo không mua bán sản phẩm online trực tuyến qua mạng internet. Website chỉ là kênh thông tin chia sẻ kinh nghiệm nuôi,
+                    chăm sóc chó mèo, thú cưng và giới thiệu các đồ dùng, dịch vụ kèm theo.</p>
+                <div class="network-infor py-3">
+                    <p class="fs-5">Mạng xã hội OniChiChi Meowgo & PetShop:</p>
+                    <div class="net">
+                        <a href="" target="_blank"><i class="fa-brands fa-facebook fs-2"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-instagram fs-2 text-dark"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-tiktok fs-2 text-dark"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-twitter fs-2"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-youtube fs-2" style="color: #da2537;"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-pinterest fs-2" style="color: #c11021;"></i></a>
+                    </div>
+                    <div class="item py-4">
+                        <a href="" target="_blank"><i class="fa-brands fa-cc-mastercard fs-1" style="color: #2d3139;"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-cc-paypal fs-1" style="color: #272e3a;"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-cc-visa fs-1" style="color: #242933;"></i></a>
+                    </div>
+                    <div class="img-certificate">
+                        <img src="../../ASM/Assignment-GD2/image/dmca_premi_badge_7.png" width="80" alt="ảnh chứng nhận">
+                        <img src="../../ASM/Assignment-GD2/image/icon-bocongthuong.png" width="150 alt="ảnh chứng nhận bộ công thương">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="myfooter bg-secondary py-3">
+        <div class="row text-center">
+            <div class="title-end">
+                <p>Các giống chó: chó phốc sóc, chó poodle, chó corgi,..</p>
+                <h6 class="text-light">Bản quyền 2023 © <strong>Dogily PetShop</strong></h6>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
